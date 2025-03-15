@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Нурсултан Манапов | Портфолио</title>
+  <style>
+    :root {
+      --primary-color: #4f46e5;
+      --text-color: #333;
+      --bg-color: #f9f9f9;
+      --accent-color: #ff6b6b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: var(--primary-color);
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .content {
+      flex: 1;
+      padding-right: 20px;
+    }
+
+    .content h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .content h3 {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .content p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background-color: #3730a3;
+    }
+
+    .btn-outline {
+      border: 2px solid var(--primary-color);
+      color: var(--primary-color);
+    }
+
+    .btn-outline:hover {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+
+    .image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .image img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    .socials {
+      margin-top: 20px;
+    }
+
+    .socials a {
+      margin-right: 15px;
+      font-size: 1.5em;
+      color: #555;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: var(--primary-color);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+
+      .content {
+        padding-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Nurs.Dev</div>
+    <nav>
+      <a href="#works">Работы</a>
+      <a href="#resume">Резюме</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h1>Нурсултан Манапов</h1>
+      <h3>Разработчик ПО & Дизайнер</h3>
+      <p>
+        Я — начинающий разработчик из Павлодара. Люблю создавать современные веб-приложения, а так же их дизайн. Работаю с такими языками программирования, как: C#, Python и JavaScript.
+      </p>
+      <div class="buttons">
+        <a href="email@mail.com" class="btn btn-primary">Связь</a>
+      </div>
+
+      <div class="socials">
+        <a href="#" target="_blank">🦈</a>
+        <a href="#" target="_blank">💼</a>
+        <a href="https://t.me" target="_blank">✉️</a>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="me.jpg" alt="Your Photo" />
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Нурсултан Манапов. Все права защищены.
+  </footer>
+
+</body>
+</html>
